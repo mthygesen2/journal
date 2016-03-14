@@ -1,0 +1,32 @@
+#journal {
+  width: 50%;
+  height: 25vh;
+  border: 1px solid black;
+  position: relative;
+}
+
+label {
+  font-family: sans-serif;
+  font-size: 1.5em;
+}
+
+textarea {
+  width: 75%;
+  height: 150px;
+}
+
+button {
+  width: 150px;
+  height: 25px;
+  color: tomato;
+  background-color: teal;
+  border: none;
+  position: absolute;
+  bottom: 10px;
+  left: 100px;
+}
+
+.postEntry h2 {
+  text-decoration: underline;
+  color: #aaa;
+}
